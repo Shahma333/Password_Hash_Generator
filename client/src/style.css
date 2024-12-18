@@ -1,0 +1,109 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(225, 221, 221);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #1f07f5;
+}
+
+
+.inputField {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.inputField:focus {
+    border-color: #ff6f61;
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 111, 97, 0.5);
+}
+
+.button {
+    width: 80%;
+    padding: 12px;
+    background-color: #f9b415;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #ff9a76;
+    transform: scale(1.05);
+}
+
+.button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+.error {
+    color: #e63946;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+
+.result pre {
+    background-color: #fce4ec;
+    color: #4a4a4a;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    max-width: 100%;
+    text-align: left;
+    border: 1px solid #ff6f61;
+}
+
+.keyValueDisplay {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.keyValueDisplay div {
+    margin-bottom: 10px;
+}
+
+.keyValueDisplay span {
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+.keyValueDisplay .value {
+    color: #6d6875;
+}
